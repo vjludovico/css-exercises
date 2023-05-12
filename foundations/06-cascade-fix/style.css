@@ -15,7 +15,7 @@ body{
   font-weight: 800;
 }
 .button {
-  background-color: rgb(255, 255, 255);
+  background-color: orangered;
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
@@ -28,9 +28,10 @@ body{
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+  background-color: orange;
 }
 .text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
-  font-size: 14px;
+  font-size: 10px;
 }
