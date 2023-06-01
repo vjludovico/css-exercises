@@ -53,10 +53,10 @@ a:link,a:visited {
 .card {
   border: 1px solid #eee;
   width: 300px;
-  max-height: 200px;
+  
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 20px;
+  padding: 32px;
 }
 .footer {
   height: 72px;
