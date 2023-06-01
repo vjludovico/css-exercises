@@ -8,22 +8,51 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight: 900;
+  font-size: 32px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 16px;
+  
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-content: space-around;
+
 }
 
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-}
 
 .sidebar {
   width: 300px;
+  height: 100%;
+  position: fixed;
   background: royalblue;
   box-sizing: border-box;
 }
 
+a:link,a:visited {
+  text-decoration: none;
+  color: white;
+
+}
+
 .card {
   border: 1px solid #eee;
+  max-width: 300px;
+  max-height: 300px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 20px;
+}
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
